@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="TBS_DATA" directorySegmentName="seg_0" id="9D691BE1-D713-5719-17F8-D706D575C4A3">
+<sourceConnName>DG00351_DEV</sourceConnName>
+<sourceObjSchema>DG00351</sourceObjSchema>
+<sourceObjName>TBS_DATA</sourceObjName>
+<createdBy>matheus.santos</createdBy>
+<createdTime>2023-01-11 14:21:41 UTC</createdTime>
+<ownerDesignName>M</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ITENS_NOTAS_FISCAIS" directorySegmentName="seg_0" id="7BED3557-626C-01A7-741B-7735E83D4167">
+<createdBy>matheus.santos</createdBy>
+<createdTime>2023-01-11 14:22:55 UTC</createdTime>
+<ownerDesignName>M</ownerDesignName>
+<schemaObject>F9D5E17F-90F2-7619-7CEB-A0176DD94E53</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>F207A5C4-E9E3-C105-54EC-DBA45975A486</segment>
+<tableSpace>9D691BE1-D713-5719-17F8-D706D575C4A3</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="QUANTIDADE" id="0F95FE1D-6DD5-0D87-4FBC-45E194C9EFA9">
+<createdBy>matheus.santos</createdBy>
+<createdTime>2023-01-11 14:22:55 UTC</createdTime>
+<ownerDesignName>M</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_DO_PRODUTO" id="249D8F79-2842-AF2F-1424-7E2CE2280B53">
+<createdBy>matheus.santos</createdBy>
+<createdTime>2023-01-11 14:22:55 UTC</createdTime>
+<ownerDesignName>M</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRECO" id="2BEC1A47-044B-6D97-BA73-F9DCDA5A0B2A">
+<createdBy>matheus.santos</createdBy>
+<createdTime>2023-01-11 14:22:55 UTC</createdTime>
+<ownerDesignName>M</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUMERO" id="DDCE884F-AB8F-ADC8-0A69-ECC58EA2F1A3">
+<createdBy>matheus.santos</createdBy>
+<createdTime>2023-01-11 14:22:55 UTC</createdTime>
+<ownerDesignName>M</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_ITENS_NOTAS_FISCAIS" id="9C8932C8-7D06-99DF-0CE1-34C7582C6D30">
+<createdBy>matheus.santos</createdBy>
+<createdTime>2023-01-11 14:22:55 UTC</createdTime>
+<ownerDesignName>M</ownerDesignName>
+<schemaObject>F9D5E17F-90F2-7619-7CEB-A0176DD94E53</schemaObject>
+<segment>430056BD-5F09-3D53-3266-2ADBBA724F12</segment>
+<tableSpace>9D691BE1-D713-5719-17F8-D706D575C4A3</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_ITENS_NOTAS_FISCAIS2" id="2F3505AA-AA87-8E51-7A6F-130FEACDDD8C">
+<createdBy>matheus.santos</createdBy>
+<createdTime>2023-01-11 14:22:56 UTC</createdTime>
+<ownerDesignName>M</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_ITENS_NOTAS_FISCAIS1" id="8D25A8A4-2E00-E09F-165A-7B33E9B62678">
+<createdBy>matheus.santos</createdBy>
+<createdTime>2023-01-11 14:22:56 UTC</createdTime>
+<ownerDesignName>M</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_ITENS_NOTAS_FISCAIS" id="43D00E2A-05B5-27AB-E9DB-696F2C79B358">
+<createdBy>matheus.santos</createdBy>
+<createdTime>2023-01-11 14:22:55 UTC</createdTime>
+<ownerDesignName>M</ownerDesignName>
+<segment>430056BD-5F09-3D53-3266-2ADBBA724F12</segment>
+<tableSpace>9D691BE1-D713-5719-17F8-D706D575C4A3</tableSpace>
+<existingIndex>9C8932C8-7D06-99DF-0CE1-34C7582C6D30</existingIndex>
+<indexSegment>430056BD-5F09-3D53-3266-2ADBBA724F12</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

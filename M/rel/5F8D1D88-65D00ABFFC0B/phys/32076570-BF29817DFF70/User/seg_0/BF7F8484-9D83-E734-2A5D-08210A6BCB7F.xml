@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="DG00351" directorySegmentName="seg_0" id="BF7F8484-9D83-E734-2A5D-08210A6BCB7F">
+<sourceConnName>DG00351_DEV</sourceConnName>
+<sourceObjName>DG00351</sourceObjName>
+<createdBy>matheus.santos</createdBy>
+<createdTime>2023-01-11 14:21:40 UTC</createdTime>
+<ownerDesignName>M</ownerDesignName>
+<schemaObject>F9D5E17F-90F2-7619-7CEB-A0176DD94E53</schemaObject>
+<defTableSpace>9D691BE1-D713-5719-17F8-D706D575C4A3</defTableSpace>
+<privileges>CREATE PUBLIC DATABASE LINK, UNLIMITED TABLESPACE, CREATE DATABASE LINK, FLASHBACK ANY TABLE, ALTER SYSTEM</privileges>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="B760908C-07E0-7299-629B-A695B16A58F0">
+<createdBy>matheus.santos</createdBy>
+<createdTime>2023-01-11 14:21:40 UTC</createdTime>
+<ownerDesignName>M</ownerDesignName>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem2" id="801900FC-B0A3-AD81-8ED6-E52A4A7576AA">
+<createdBy>matheus.santos</createdBy>
+<createdTime>2023-01-11 14:22:02 UTC</createdTime>
+<ownerDesignName>M</ownerDesignName>
+<tableSpace>9D691BE1-D713-5719-17F8-D706D575C4A3</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem3" id="5743D910-0991-0235-BB3E-49851FC8D833">
+<createdBy>matheus.santos</createdBy>
+<createdTime>2023-01-11 14:22:15 UTC</createdTime>
+<ownerDesignName>M</ownerDesignName>
+<tableSpace>9D691BE1-D713-5719-17F8-D706D575C4A3</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem4" id="36611CD7-8D44-C68F-2E42-8EC3DB6FB3A5">
+<createdBy>matheus.santos</createdBy>
+<createdTime>2023-01-11 14:22:33 UTC</createdTime>
+<ownerDesignName>M</ownerDesignName>
+<tableSpace>9D691BE1-D713-5719-17F8-D706D575C4A3</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem5" id="3B60DC0D-A71A-9B06-BC2D-44F31605510C">
+<createdBy>matheus.santos</createdBy>
+<createdTime>2023-01-11 14:22:54 UTC</createdTime>
+<ownerDesignName>M</ownerDesignName>
+<tableSpace>9D691BE1-D713-5719-17F8-D706D575C4A3</tableSpace>
+</QuotaItem>
+</quotaItems>
+</UserOraclev10g>
